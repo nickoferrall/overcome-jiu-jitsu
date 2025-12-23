@@ -11,8 +11,8 @@ export function Hero() {
     <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Greensboros-Comprehensive-Sports-Center-With-Training-For-All-Ages-213363.jpg"
-          alt="Proehlific Park Sports Complex in Greensboro"
+          src="https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/8897/Get-the-Best-Authentic-Brazilian-Jiu-Jitsu-Training-in-Location-249819.jpg"
+          alt="Overcome Jiu Jitsu training facility in Bentonville, Arkansas"
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
@@ -20,11 +20,11 @@ export function Hero() {
 
       <div className="container relative z-10 px-4 pt-32 pb-20">
         <div className="max-w-4xl">
-          <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
-            Greensboro&apos;s Comprehensive Sports Training Center
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
+            Get the Best Authentic Brazilian Jiu Jitsu Training in Bentonville
           </h1>
-          <p className="text-base sm:text-lg md:text-2xl text-white/90 mb-6 md:mb-10 max-w-2xl leading-relaxed drop-shadow-md">
-            Find the P.O.W.E.R. in Play. Fitness, sports, youth programs, and more for athletes of all ages.
+          <p className="text-sm sm:text-base md:text-lg text-white/90 mb-6 md:mb-10 max-w-2xl leading-relaxed drop-shadow-md">
+            Immerse Yourself in Martial Arts with Overcome Jiu Jitsu. World champion instructors teaching Kids BJJ, Adult BJJ, Women-Only BJJ, and Private Training.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button

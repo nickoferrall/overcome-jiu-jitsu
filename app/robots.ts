@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://proehlificpark.com/sitemap.xml",
+    sitemap: "https://overcomejiujitsu.com/sitemap.xml",
   };
 }

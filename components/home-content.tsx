@@ -5,6 +5,7 @@ import { Hero } from "@/components/hero"
 import { Header } from "@/components/header"
 import { Classes } from "@/components/classes"
 import { Services } from "@/components/services"
+import { Schedule } from "@/components/schedule"
 import { Team } from "@/components/team"
 import { Testimonials } from "@/components/testimonials"
 import { CtaBanner } from "@/components/cta-banner"
@@ -47,6 +48,7 @@ export function HomeContent({ scrollTo }: HomeContentProps) {
       <CtaBanner />
       <Classes />
       <Services />
+      <Schedule />
       <Team />
       <Testimonials />
       <FAQ />

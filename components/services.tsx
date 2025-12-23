@@ -1,35 +1,25 @@
-import { Dumbbell, Users, GraduationCap, Calendar, Heart, Trophy } from "lucide-react"
+import { Users, GraduationCap, Shield, Target } from "lucide-react"
 
 const features = [
   {
-    icon: Dumbbell,
-    title: "Fitness & Weight Room",
-    description: "State-of-the-art weight lifting equipment and cardio machines with 24/7 member access during open hours",
+    icon: GraduationCap,
+    title: "Kids BJJ",
+    description: "High-quality Kids Martial Arts training in Bentonville. Our classes teach the fundamentals of Jiu Jitsu while instilling strong core values, leadership skills, and discipline.",
   },
   {
     icon: Users,
-    title: "Group Exercise Classes",
-    description: "Cycling, fitness classes, and group workouts designed to help you lose weight and have fun",
+    title: "Adult BJJ",
+    description: "The highest-quality Jiu Jitsu training in Bentonville. We offer Gi and No Gi Brazilian Jiu Jitsu, and we continue to work every day to help our students achieve their goals.",
   },
   {
-    icon: GraduationCap,
-    title: "Youth Programs",
-    description: "After school care, summer camps, and youth sports leagues for kids of all ages",
+    icon: Shield,
+    title: "Women-Only BJJ",
+    description: "Build your skills one step at a time in our Women's Brazilian Jiu Jitsu Classes. We're proud to help women train with confidence and comfort and get the most out of every workout.",
   },
   {
-    icon: Trophy,
-    title: "Sports Training",
-    description: "Basketball, baseball, football, soccer, lacrosse, and more for youth and adults",
-  },
-  {
-    icon: Calendar,
-    title: "Summer Blast Camp",
-    description: "Fun-filled summer program featuring sports, games, arts and crafts, and more activities",
-  },
-  {
-    icon: Heart,
-    title: "Kids Club & Child Care",
-    description: "Leave your child in the care of our qualified staff while you focus on your workout",
+    icon: Target,
+    title: "Private BJJ Training",
+    description: "Get the most out of every session by enrolling in our Private Training. We offer one-on-one training sessions by appointment, which will allow you to create a personalized training routine with one of our world champion instructors.",
   },
 ]
 
@@ -39,10 +29,10 @@ export function Services() {
       <div className="container mx-auto px-4">
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            What We <span className="text-primary">Offer</span>
+            Our <span className="text-primary">Programs</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            More than a gym - a community dedicated to helping you and your family achieve your goals
+            Authentic Brazilian Jiu Jitsu training for all ages and skill levels. World champion instructors teaching the fundamentals and advanced techniques.
           </p>
         </div>
 

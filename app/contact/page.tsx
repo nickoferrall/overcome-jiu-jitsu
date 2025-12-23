@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Proehlific Park Greensboro",
+  title: "Contact Us - Overcome Jiu Jitsu | Bentonville, Arkansas",
   description:
-    "Contact Proehlific Park in Greensboro, NC. Get directions, phone number, and email. Visit us at 4517 Jessup Grove Rd.",
+    "Contact Overcome Jiu Jitsu in Bentonville, AR. Get directions, phone number, and email. Visit us at 3600 Southwest Regional Airport Blvd. Free trial class available.",
   alternates: {
-    canonical: "https://proehlificpark.com/contact",
+    canonical: "https://overcomejiujitsu.com/contact",
   },
   openGraph: {
-    title: "Contact Us - Proehlific Park Greensboro",
+    title: "Contact Us - Overcome Jiu Jitsu | Bentonville, Arkansas",
     description:
-      "Contact Proehlific Park in Greensboro, NC. Get directions, phone number, and email. Visit us at 4517 Jessup Grove Rd.",
-    url: "https://proehlificpark.com/contact",
-    images: ["/proehlific-facility.jpg"],
+      "Contact Overcome Jiu Jitsu in Bentonville, AR. Get directions, phone number, and email. Visit us at 3600 Southwest Regional Airport Blvd. Free trial class available.",
+    url: "https://overcomejiujitsu.com/contact",
+    images: ["https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/8897/Overcome-Bjj-249850.jpg"],
   },
 };
 

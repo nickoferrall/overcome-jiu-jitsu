@@ -8,139 +8,96 @@ import { useState } from "react"
 
 const programs = [
   {
-    title: "Fitness",
+    title: "Kids BJJ",
     description:
-      "Access our fully equipped gym with state-of-the-art weight lifting equipment, cardio machines, locker rooms, saunas, and showers. All memberships include a free one-hour fitness consultation.",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/fitness-main-212393.jpg",
+      "Our team at Overcome Jiu Jitsu is proud to bring high-quality Kids Martial Arts training to Bentonville. Our classes teach the fundamentals of Jiu Jitsu while also instilling strong core values, leadership skills, and discipline.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/8897/Kids-Excerpt-249823.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our state-of-the-art fitness facility offers everything you need to achieve your goals. With your membership, you'll have access to our facility any time during open hours.
+          Our Kids BJJ program is designed to help children develop physical skills, mental discipline, and character. We create a safe, supportive environment where kids can learn and grow.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Included Amenities:</h4>
+          <h4 className="font-semibold text-foreground">Program Benefits:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Weight Room:</strong> Complete lifting equipment for strength training</li>
-            <li><strong>Cardio Machines:</strong> Treadmills, ellipticals, stationary bikes, and more</li>
-            <li><strong>Locker Rooms:</strong> Private facilities with saunas and showers</li>
-            <li><strong>Free WiFi:</strong> Stay connected during your workout</li>
-            <li><strong>Personal Training:</strong> Optional one-on-one coaching available</li>
+            <li><strong>Fundamentals:</strong> Learn proper technique and form from the start</li>
+            <li><strong>Character Development:</strong> Build respect, discipline, and confidence</li>
+            <li><strong>Physical Fitness:</strong> Improve coordination, strength, and flexibility</li>
+            <li><strong>Social Skills:</strong> Make friends and learn to work as a team</li>
+            <li><strong>Age-Appropriate:</strong> Classes designed specifically for children</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Group Exercise",
+    title: "Adult BJJ",
     description:
-      "Join our group exercise classes designed to keep you interested and motivated. From cycling to fitness classes, we have something for everyone looking to lose weight and have fun.",
-    image: "https://res.cloudinary.com/display97/image/upload/7466/pick-up-56-213370.jpg",
+      "Our team at Overcome Jiu Jitsu is proud to provide the highest-quality Jiu Jitsu training in Bentonville. We are proud to offer Gi and No Gi Brazilian Jiu Jitsu, and we continue to work every day to help our students achieve their goals.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/8897/Adult-Excerpt-249828.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our highly trained instructors guide you through varied workouts in a supportive group environment. Group classes are a great way to stay motivated and meet new people.
-        </p>
-        <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Class Options:</h4>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Cycle Studio:</strong> High-energy cycling workouts with trained instructors</li>
-            <li><strong>Group Fitness:</strong> Various formats to keep you challenged</li>
-            <li><strong>Personal Training:</strong> One-on-one attention for faster results</li>
-          </ul>
-        </div>
-      </div>
-    ),
-  },
-  {
-    title: "Sports",
-    description:
-      "Get moving with our youth and adult sports leagues and drop-in games! We offer Basketball, Baseball, Football, Soccer, Lacrosse, and more. There's never a wrong time to get started!",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/sports-main-212395.jpg",
-    objectPosition: "center",
-    fullDescription: (
-      <div className="space-y-4">
-        <p className="text-muted-foreground">
-          Proehlific Park offers comprehensive sports programming for athletes of all ages and skill levels. Join a league or come for drop-in games.
-        </p>
-        <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Sports We Offer:</h4>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Basketball:</strong> Youth and adult leagues plus open gym</li>
-            <li><strong>Baseball:</strong> Training and league play</li>
-            <li><strong>Football:</strong> Skills training and team sports</li>
-            <li><strong>Soccer:</strong> Indoor and outdoor programs</li>
-            <li><strong>Lacrosse:</strong> Growing program for all skill levels</li>
-          </ul>
-        </div>
-      </div>
-    ),
-  },
-  {
-    title: "Youth Programs",
-    description:
-      "When school is out, come on in! We offer After School Care, Summer Camps, and child care on teacher workdays, holidays, and inclement weather closings. Kids love sports, games, and arts & crafts!",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/youth-main-212394.jpg",
-    objectPosition: "center",
-    fullDescription: (
-      <div className="space-y-4">
-        <p className="text-muted-foreground">
-          Our youth programs are designed to keep kids active, engaged, and having fun. Our dedicated staff creates a safe, nurturing environment for children of all ages.
-        </p>
-        <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Programs Include:</h4>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>After School Care:</strong> Safe, fun environment after school hours</li>
-            <li><strong>Summer Blast Camp:</strong> Full summer programming with activities</li>
-            <li><strong>Holiday Care:</strong> Coverage during school breaks and closings</li>
-            <li><strong>Sports & Games:</strong> Dodgeball, arts and crafts, and more</li>
-          </ul>
-        </div>
-      </div>
-    ),
-  },
-  {
-    title: "PSP Training",
-    description:
-      "Our Proehlific Sports Performance program offers elite training for serious athletes looking to take their game to the next level with professional coaching and facilities.",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/psp-main-212328.jpg",
-    objectPosition: "center",
-    fullDescription: (
-      <div className="space-y-4">
-        <p className="text-muted-foreground">
-          PSP (Proehlific Sports Performance) is our elite training program designed for athletes who want to maximize their potential. Work with experienced coaches in a professional setting.
+          Our Adult BJJ program welcomes students of all skill levels, from complete beginners to advanced practitioners. Train with world champion instructors in a supportive, ego-free environment.
         </p>
         <div className="space-y-3">
           <h4 className="font-semibold text-foreground">Training Includes:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Strength & Conditioning:</strong> Build power and endurance</li>
-            <li><strong>Speed & Agility:</strong> Improve quickness and reaction time</li>
-            <li><strong>Sport-Specific Training:</strong> Tailored to your sport</li>
-            <li><strong>Professional Coaching:</strong> Learn from experienced trainers</li>
+            <li><strong>Gi Training:</strong> Traditional Brazilian Jiu Jitsu with the kimono</li>
+            <li><strong>No Gi Training:</strong> Modern submission grappling without the gi</li>
+            <li><strong>World Champion Instructors:</strong> Learn from Professor Italo and expert coaches</li>
+            <li><strong>All Skill Levels:</strong> Separate classes for beginners and advanced students</li>
+            <li><strong>Competition Training:</strong> Optional preparation for tournaments</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Facility Rentals",
+    title: "Women-Only BJJ",
     description:
-      "Host your event, birthday party, or team practice at Proehlific Park. Our versatile facility spaces are available for rental with full amenities and support staff.",
-    image: "https://res.cloudinary.com/display97/image/upload/7466/summer-blast-41-255680.jpg",
+      "Build your skills one step at a time in our Women's Brazilian Jiu Jitsu Classes. We're proud to help women train with confidence and comfort and get the most out of every workout.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/8897/Womens-Excerpt-249836.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Looking for a venue for your next event? Proehlific Park offers flexible rental options for parties, team events, corporate gatherings, and more.
+          Our Women-Only BJJ classes provide a comfortable, supportive environment for women to learn Brazilian Jiu Jitsu. Whether you're looking for self-defense skills, fitness, or competition training, we have a program for you.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Rental Options:</h4>
+          <h4 className="font-semibold text-foreground">Class Benefits:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Birthday Parties:</strong> Make their day special</li>
-            <li><strong>Team Events:</strong> Practice and game space</li>
-            <li><strong>Corporate Events:</strong> Team building and meetings</li>
-            <li><strong>Private Events:</strong> Custom arrangements available</li>
+            <li><strong>Comfortable Environment:</strong> Train with other women in a supportive setting</li>
+            <li><strong>Self-Defense:</strong> Learn practical techniques for real-world situations</li>
+            <li><strong>Fitness:</strong> Full-body workout that builds strength and endurance</li>
+            <li><strong>Confidence:</strong> Develop mental and physical confidence</li>
+            <li><strong>All Levels Welcome:</strong> Beginners and experienced practitioners welcome</li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "Private BJJ Training",
+    description:
+      "Get the most out of every session by enrolling in our Private Training. We offer one-on-one training sessions by appointment, which will allow you to create a personalized training routine with one of our world champion instructors.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/8897/Private-Training-Excerpt-249840.jpg",
+    objectPosition: "center",
+    fullDescription: (
+      <div className="space-y-4">
+        <p className="text-muted-foreground">
+          Private training sessions offer personalized attention and customized instruction tailored to your specific goals. Work one-on-one with our world champion instructors to accelerate your progress.
+        </p>
+        <div className="space-y-3">
+          <h4 className="font-semibold text-foreground">Private Training Benefits:</h4>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li><strong>Personalized Instruction:</strong> Focus on your specific goals and needs</li>
+            <li><strong>Flexible Scheduling:</strong> Book sessions at times that work for you</li>
+            <li><strong>Faster Progress:</strong> Individual attention accelerates learning</li>
+            <li><strong>World Champion Coaches:</strong> Learn from Professor Italo and expert instructors</li>
+            <li><strong>Customized Curriculum:</strong> Training plan designed specifically for you</li>
           </ul>
         </div>
       </div>
@@ -164,7 +121,7 @@ export function Classes() {
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Our Programs</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From fitness to youth sports, we have programs designed to help the whole family achieve their goals
+            Authentic Brazilian Jiu Jitsu training for all ages and skill levels. World champion instructors teaching the fundamentals and advanced techniques.
           </p>
         </div>
 
@@ -211,9 +168,9 @@ export function Classes() {
               <Info className="h-4 w-4" />
               Take a Tour
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience Proehlific Park</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience Overcome Jiu Jitsu</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
-              Please stop by and take a tour! We would love to meet you and show you our awesome facility. Become a member of the Park and together we can enjoy the P.O.W.E.R. of Play!
+              Please stop by and take a tour! We would love to meet you and show you our awesome facility. Try a free trial class and experience authentic Brazilian Jiu Jitsu training with world champion instructors.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-8">
               <Button
@@ -223,21 +180,7 @@ export function Classes() {
               >
                 Request More Info
               </Button>
-              <p className="text-sm text-muted-foreground">Programs for all ages • Family-friendly facility</p>
-            </div>
-            <div className="relative rounded-2xl overflow-hidden shadow-lg">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                controls
-                className="w-full h-auto"
-                poster="https://res.cloudinary.com/display97/video/upload/so_0/dawynyrmvdjvs7xlinsy.jpg"
-              >
-                <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/dawynyrmvdjvs7xlinsy.mp4" type="video/mp4" />
-                <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/dawynyrmvdjvs7xlinsy.webm" type="video/webm" />
-              </video>
+              <p className="text-sm text-muted-foreground">Programs for all ages • Free trial class available</p>
             </div>
           </div>
         </div>

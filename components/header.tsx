@@ -10,6 +10,7 @@ import { BookingModal } from "./booking-modal"
 
 const navItems = [
   { href: "/programs", label: "Programs", scrollTo: "programs" },
+  { href: "/schedule", label: "Schedule", scrollTo: "schedule" },
   { href: "/team", label: "Team", scrollTo: "team" },
   { href: "/reviews", label: "Reviews", scrollTo: "testimonials" },
   { href: "/faq", label: "FAQ", scrollTo: "faq" },
@@ -38,12 +39,15 @@ export function Header() {
   }
 
   const handleNavClick = (e: React.MouseEvent, item: typeof navItems[0]) => {
+    e.preventDefault()
+    setIsMenuOpen(false)
+    
     const section = document.getElementById(item.scrollTo)
     if (section) {
-      e.preventDefault()
       section.scrollIntoView({ behavior: "smooth" })
       window.history.pushState({}, "", item.href)
-      setIsMenuOpen(false)
+    } else {
+      router.push(item.href)
     }
   }
 
@@ -51,62 +55,53 @@ export function Header() {
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled 
-          ? "bg-slate-900/95 backdrop-blur-md shadow-lg" 
-          : "bg-transparent"
+          ? "bg-white/95 backdrop-blur-md shadow-lg" 
+          : "bg-white/90 backdrop-blur-sm"
       }`}
     >
-      <div className="border-b border-white/10">
+      <div className="border-b border-slate-200">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-10 text-sm">
-            <div className="flex items-center gap-2 text-white/80">
+            <div className="flex items-center gap-2 text-slate-600">
               <MapPin className="h-4 w-4" />
-              <span className="hidden sm:inline">4517 Jessup Grove Rd, Greensboro, NC 27410</span>
-              <span className="sm:hidden">Greensboro, NC</span>
+              <span className="hidden sm:inline">3600 Southwest Regional Airport Blvd, Bentonville, AR 72712</span>
+              <span className="sm:hidden">Bentonville, AR</span>
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="tel:3366655233"
-                className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
+                href="tel:4798002550"
+                className="flex items-center gap-2 text-slate-600 hover:text-primary transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                <span>(336) 665-5233</span>
+                <span>(479) 800-2550</span>
               </a>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-3">
                 <a
-                  href="https://www.facebook.com/ProehlificPark/"
+                  href="https://www.facebook.com/overcomebjj"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
+                  className="text-slate-600 hover:text-primary transition-colors"
                   aria-label="Facebook"
                 >
                   <Facebook className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://www.instagram.com/proehlificpark/"
+                  href="https://www.instagram.com/overcomebjj/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
+                  className="text-slate-600 hover:text-primary transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://x.com/proehlificpark"
+                  href="https://www.google.com/maps/place/Overcome+Brazilian+jiu-jitsu+school/@36.3367733,-94.2526732,15z/data=!4m6!3m5!1s0x87c90f9a57d24cdf:0x24cbc936baccb6a7!8m2!3d36.3367733!4d-94.2526732!16s%2Fg%2F11nmrg99k8?entry=ttu"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
-                  aria-label="X (Twitter)"
+                  className="text-slate-600 hover:text-primary transition-colors"
+                  aria-label="Google Maps"
                 >
-                  <Twitter className="h-4 w-4" />
-                </a>
-                <a
-                  href="https://www.youtube.com/user/ProehlificPOWER"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
-                  aria-label="YouTube"
-                >
-                  <Youtube className="h-4 w-4" />
+                  <MapPin className="h-4 w-4" />
                 </a>
               </div>
             </div>
@@ -118,8 +113,8 @@ export function Header() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/proehlific-logo.png"
-              alt="Proehlific Park"
+              src="/overcome-logo.png"
+              alt="Overcome Jiu Jitsu"
               width={180}
               height={60}
               className="h-14 w-auto"
@@ -133,7 +128,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item)}
-                className="text-sm font-medium text-white/90 hover:text-white transition-colors"
+                className="text-sm font-medium text-slate-700 hover:text-primary transition-colors"
               >
                 {item.label}
               </Link>
@@ -144,7 +139,7 @@ export function Header() {
           </nav>
 
           <button
-            className="lg:hidden text-white transition-colors"
+            className="lg:hidden text-slate-700 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -153,13 +148,13 @@ export function Header() {
         </div>
 
         {isMenuOpen && (
-          <nav className="lg:hidden pb-6 flex flex-col gap-4 bg-slate-900/90 backdrop-blur-md rounded-lg p-4 -mx-2">
+          <nav className="lg:hidden pb-6 flex flex-col gap-4 bg-white/95 backdrop-blur-md rounded-lg p-4 -mx-2 shadow-lg border border-slate-200">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item)}
-                className="text-sm font-medium text-white/90 hover:text-white transition-colors"
+                className="text-sm font-medium text-slate-700 hover:text-primary transition-colors"
               >
                 {item.label}
               </Link>

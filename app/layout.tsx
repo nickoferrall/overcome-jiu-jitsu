@@ -7,53 +7,53 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+  title: "Overcome Jiu Jitsu | Best Brazilian Jiu Jitsu Training in Bentonville, Arkansas",
   description:
-    "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages offering fitness, sports, youth programs, and more.",
+    "Get the best authentic Brazilian Jiu Jitsu training in Bentonville, AR. World champion instructors teach Kids BJJ, Adult BJJ, Women-Only BJJ, and Private Training. Free trial class available.",
   keywords: [
-    "Proehlific Park",
-    "Greensboro gym",
-    "sports complex Greensboro",
-    "fitness center Greensboro",
-    "youth sports Greensboro",
-    "sports training Greensboro",
-    "Summer Blast",
-    "after school program Greensboro",
-    "kids sports Greensboro",
-    "personal training Greensboro",
-    "cycling classes Greensboro",
-    "group fitness Greensboro",
+    "Overcome Jiu Jitsu",
+    "Bentonville BJJ",
+    "Brazilian Jiu Jitsu Bentonville",
+    "BJJ classes Bentonville",
+    "Kids BJJ Bentonville",
+    "Adult BJJ Bentonville",
+    "Women BJJ Bentonville",
+    "Jiu Jitsu training Arkansas",
+    "BJJ gym Bentonville",
+    "martial arts Bentonville",
+    "Professor Italo",
+    "Bentonville Arkansas Jiu Jitsu",
   ],
-  authors: [{ name: "Proehlific Park" }],
-  creator: "Proehlific Park",
-  publisher: "Proehlific Park",
-  metadataBase: new URL("https://proehlificpark.com"),
+  authors: [{ name: "Overcome Jiu Jitsu" }],
+  creator: "Overcome Jiu Jitsu",
+  publisher: "Overcome Jiu Jitsu",
+  metadataBase: new URL("https://overcomejiujitsu.com"),
   alternates: {
-    canonical: "https://proehlificpark.com",
+    canonical: "https://overcomejiujitsu.com",
   },
   openGraph: {
-    title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+    title: "Overcome Jiu Jitsu | Best Brazilian Jiu Jitsu Training in Bentonville, Arkansas",
     description:
-      "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages.",
-    url: "https://proehlificpark.com",
-    siteName: "Proehlific Park",
+      "Get the best authentic Brazilian Jiu Jitsu training in Bentonville, AR. World champion instructors teach Kids BJJ, Adult BJJ, Women-Only BJJ, and Private Training.",
+    url: "https://overcomejiujitsu.com",
+    siteName: "Overcome Jiu Jitsu",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/proehlific-facility.jpg",
+        url: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/8897/Get-the-Best-Authentic-Brazilian-Jiu-Jitsu-Training-in-Location-249819.jpg",
         width: 1200,
         height: 630,
-        alt: "Proehlific Park Sports Complex in Greensboro, North Carolina",
+        alt: "Overcome Jiu Jitsu training facility in Bentonville, Arkansas",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+    title: "Overcome Jiu Jitsu | Best Brazilian Jiu Jitsu Training in Bentonville, Arkansas",
     description:
-      "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages.",
-    images: ["/proehlific-facility.jpg"],
+      "Get the best authentic Brazilian Jiu Jitsu training in Bentonville, AR. World champion instructors teach Kids BJJ, Adult BJJ, Women-Only BJJ, and Private Training.",
+    images: ["https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/8897/Get-the-Best-Authentic-Brazilian-Jiu-Jitsu-Training-in-Location-249819.jpg"],
   },
   robots: {
     index: true,
@@ -72,93 +72,63 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
-  name: "Proehlific Park",
-  image: "https://proehlificpark.com/proehlific-facility.jpg",
-  "@id": "https://proehlificpark.com",
-  url: "https://proehlificpark.com",
-  telephone: "+1-336-665-5233",
+  name: "Overcome Jiu Jitsu",
+  image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/8897/Overcome-Bjj-249850.jpg",
+  "@id": "https://overcomejiujitsu.com",
+  url: "https://overcomejiujitsu.com",
+  telephone: "+1-479-800-2550",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "4517 Jessup Grove Rd",
-    addressLocality: "Greensboro",
-    addressRegion: "NC",
-    postalCode: "27410",
+    streetAddress: "3600 Southwest Regional Airport Blvd",
+    addressLocality: "Bentonville",
+    addressRegion: "AR",
+    postalCode: "72712",
     addressCountry: "US",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 36.0726,
-    longitude: -79.8898,
+    latitude: 36.3367733,
+    longitude: -94.2526732,
   },
-  openingHoursSpecification: [
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "05:00",
-      closes: "21:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Saturday",
-      opens: "07:00",
-      closes: "18:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Sunday",
-      opens: "12:00",
-      closes: "18:00",
-    },
-  ],
   sameAs: [
-    "https://www.facebook.com/ProehlificPark/",
-    "https://www.instagram.com/proehlificpark/",
-    "https://x.com/proehlificpark",
-    "https://www.youtube.com/user/ProehlificPOWER",
+    "https://www.facebook.com/overcomebjj",
   ],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
-    reviewCount: "100",
+    reviewCount: "50",
   },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Programs & Services",
+    name: "BJJ Programs & Services",
     itemListElement: [
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Fitness & Weight Room",
+          name: "Kids BJJ",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Group Exercise Classes",
+          name: "Adult BJJ",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Youth Sports Programs",
+          name: "Women-Only BJJ",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Summer Blast Camp",
-        },
-      },
-      {
-        "@type": "Offer",
-        itemOffered: {
-          "@type": "Service",
-          name: "After School Care",
+          name: "Private BJJ Training",
         },
       },
     ],
@@ -173,11 +143,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://proehlificpark.com" />
-        <meta name="geo.region" content="US-NC" />
-        <meta name="geo.placename" content="Greensboro" />
-        <meta name="geo.position" content="36.0726;-79.8898" />
-        <meta name="ICBM" content="36.0726, -79.8898" />
+        <link rel="canonical" href="https://overcomejiujitsu.com" />
+        <meta name="geo.region" content="US-AR" />
+        <meta name="geo.placename" content="Bentonville" />
+        <meta name="geo.position" content="36.3367733;-94.2526732" />
+        <meta name="ICBM" content="36.3367733, -94.2526732" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

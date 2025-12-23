@@ -2,18 +2,18 @@ import { Metadata } from "next"
 import { HomeContent } from "@/components/home-content"
 
 export const metadata: Metadata = {
-  title: "Our Team - Proehlific Park",
+  title: "Our Instructors - Overcome Jiu Jitsu | Bentonville, Arkansas",
   description:
-    "Meet the dedicated team at Proehlific Park. Our experienced directors, trainers, and staff are committed to helping you and your family achieve your fitness and athletic goals.",
+    "Meet the world champion instructors at Overcome Jiu Jitsu. Professor Italo and Thamires are dedicated to teaching authentic Brazilian Jiu Jitsu to students of all levels.",
   keywords: [
-    "Proehlific Park team",
-    "Ricky Proehl",
-    "Greensboro fitness trainers",
-    "sports coaches Greensboro",
-    "personal trainers Greensboro",
+    "Overcome Jiu Jitsu instructors",
+    "Professor Italo",
+    "Bentonville BJJ instructors",
+    "world champion BJJ",
+    "BJJ coaches Bentonville",
   ],
   alternates: {
-    canonical: "https://proehlificpark.com/team",
+    canonical: "https://overcomejiujitsu.com/team",
   },
 }
 

@@ -5,33 +5,33 @@ import { useState } from "react"
 
 const testimonials = [
   {
-    text: "Proehlific Park's after-school program has been an absolute life saver this past year, not only for me as a parent, but for my child as well! He absolutely loves going to Proehlific, loves all of the sports and activities he gets to do, friends he has made, and most of all, LOVES the coaches and Angie!",
-    author: "Amy S.",
+    text: "Awesome BJJ training facility! Professor Italo is a world champion competitor. He explains everything step by step. It's a great facility for beginners since they have separate classes which was important to me.",
+    author: "Jeff Cotter",
     source: "google",
   },
   {
-    text: "My kids absolutely love the Summer Blast program at Proehlific! Mrs. Angie and her staff are amazing, you can see how much they love the kids.",
-    author: "Demetria S.",
+    text: "This is a great place to train as there are no egos in this gym. Everyone is there to not only learn BJJ but to help each other learn as well. Coach Italo goes out of his way to make sure each student understands the techniques.",
+    author: "Jeff Bingham",
     source: "google",
   },
   {
-    text: "Summer Blast has been the much needed break for my son and I. We are so happy that this summer program is able to accommodate so many children and working parents. All the protocols and procedures that you have in place to serve and protect our children is much appreciated.",
-    author: "Capricia M.",
+    text: "Beginning with my first trial class, the instructors and students welcomed me into the group. Everyone has been extremely friendly and encouraging. The instructors knew my name from the first day and made me feel like part of the family.",
+    author: "Wesley Steven Gordon",
     source: "google",
   },
   {
-    text: "This has been the absolute best experience for my 6 year old son. We love everyone here, they go above and beyond with the kids. Thankful for this place.",
-    author: "Tiffine B.",
+    text: "If you're looking to train with the best BJJ instructor in NWA and get into shape, this is where you need to be. Professor Italo is a consummate professional in what he teaches, and his record speaks for itself.",
+    author: "Retro Maniac",
     source: "google",
   },
   {
-    text: "We Love Proehlific Park Summer BLAST Camp! As a working parent, I had to find a summer camp during COVID-19. I reached out to Angie and explained my situation. Angie and the Summer Blast Camp Coaches are awesome! Very professional and each week the coaches would communicate with me on how my son was doing.",
-    author: "Jessica H.",
+    text: "In the time I have been training under Professor Italo, I have learned more than any other academy. It is very apparent that Italo and Thamires love BJJ, teaching, and their students. Love is the theme here.",
+    author: "Mike Rice",
     source: "google",
   },
   {
-    text: "Want your child to come home hungry and tired every day? Begging to stay just a few more minutes? That's exactly what you get when your child attends Summer Blast! at Proehlific Park. Our very active 9 year old LOVES his time playing with the other kids and learning from the coaches.",
-    author: "Jo V.",
+    text: "Perfect facility with an awesome group of people to train with. Italo and Thamires are incredible professors. Extremely welcoming community, so come try this place out! You will not regret your decision.",
+    author: "Jeremy Ramirez",
     source: "google",
   },
 ]
@@ -43,9 +43,9 @@ export function Testimonials() {
     <section id="testimonials" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">What Our Members Say</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">What Our Students Say</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join a community that supports and motivates each other every day
+            Join a welcoming community where everyone helps each other learn and grow in Brazilian Jiu Jitsu
           </p>
         </div>
 

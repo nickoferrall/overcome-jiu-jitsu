@@ -5,34 +5,34 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What programs does Proehlific Park offer?",
+    question: "What programs does Overcome Jiu Jitsu offer?",
     answer:
-      "Proehlific Park offers a comprehensive range of programs including fitness and weight room access, group exercise classes, cycling studio, youth sports leagues, adult sports leagues, after school care, Summer Blast camp, PSP (Proehlific Sports Performance) training, and facility rentals for events and parties.",
+      "Overcome Jiu Jitsu offers Kids BJJ, Adult BJJ (both Gi and No Gi), Women-Only BJJ classes, and Private BJJ Training. We have separate classes for beginners and advanced students to ensure everyone learns at the appropriate level.",
   },
   {
-    question: "What are your membership options?",
+    question: "Do I need experience to start training?",
     answer:
-      "We offer various membership options to fit your needs. All memberships include access to our fitness center, locker rooms with saunas and showers, free WiFi, and a complimentary one-hour fitness consultation. Contact us to learn about current pricing and family rates.",
+      "No experience necessary! We welcome complete beginners and have separate classes specifically designed for those new to Brazilian Jiu Jitsu. Our world champion instructors explain everything step by step, making it easy for anyone to get started.",
   },
   {
-    question: "What is Summer Blast camp?",
+    question: "What is the difference between Gi and No Gi BJJ?",
     answer:
-      "Summer Blast is our popular summer program for kids when school is out. Children participate in a variety of activities including sports, games, dodgeball, arts and crafts, and more. Our dedicated staff creates a fun, safe environment where kids come home tired and happy! We also offer care during teacher workdays, holidays, and inclement weather closings.",
+      "Gi BJJ is traditional Brazilian Jiu Jitsu practiced while wearing a kimono (gi), which allows for grips on the uniform. No Gi BJJ is practiced without the gi, focusing more on body control and modern submission grappling techniques. We offer both at Overcome Jiu Jitsu.",
   },
   {
-    question: "Do you offer after school programs?",
+    question: "Do you offer a free trial class?",
     answer:
-      "Yes! Our after school program provides a safe, fun environment for children after school hours. Kids participate in sports, games, and activities while making friends and staying active. Parents love the convenience and peace of mind our program provides.",
+      "Yes! We offer free trial classes so you can experience our training before committing. Come try a class and see why Overcome Jiu Jitsu is the best BJJ academy in Bentonville. Contact us to schedule your free trial.",
   },
   {
-    question: "What sports do you offer for youth and adults?",
+    question: "What makes Overcome Jiu Jitsu different?",
     answer:
-      "We offer a wide range of sports including basketball, baseball, football, soccer, and lacrosse. We have both youth and adult leagues as well as drop-in games. Whether you're looking for competitive league play or casual pickup games, we have options for all skill levels.",
+      "We have world champion instructors like Professor Italo, separate classes for beginners, and an ego-free environment where everyone helps each other learn. Our welcoming community and step-by-step instruction make it perfect for students of all levels.",
   },
   {
     question: "Can I tour the facility before joining?",
     answer:
-      "Absolutely! We encourage everyone to stop by and take a tour of our facility. We would love to meet you and show you our awesome staff and amenities. Contact us to schedule a visit and see why Proehlific Park is Greensboro's premier sports training center.",
+      "Absolutely! We encourage everyone to stop by and take a tour of our facility. We would love to meet you and show you our awesome training space and instructors. Contact us to schedule a visit and see why Overcome Jiu Jitsu is Bentonville's premier BJJ academy.",
   },
 ]
 
@@ -49,7 +49,7 @@ export function FAQ() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get answers to common questions about Proehlific Park
+            Get answers to common questions about Overcome Jiu Jitsu
           </p>
         </div>
 

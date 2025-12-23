@@ -82,10 +82,10 @@ export function Facility() {
         <div className="mb-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              About Proehlific Park
+              About Overcome Jiu Jitsu
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Your home for sports, fitness, and community
+              Get the best authentic Brazilian Jiu Jitsu training in Bentonville, Arkansas
             </p>
           </div>
 
@@ -93,19 +93,16 @@ export function Facility() {
             <CardContent className="p-8 md:p-12">
               <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
                 <p>
-                  The Proehlific Park mission is to{" "}
-                  <span className="font-bold text-foreground">inspire</span>,{" "}
-                  <span className="font-bold text-foreground">cultivate</span>, and{" "}
-                  <span className="font-bold text-foreground">ignite</span> the P.O.W.E.R. within each of us no matter our age using sport, exercise, play and spirituality as tools for life.
+                  Overcome Jiu Jitsu is proud to provide the highest-quality Brazilian Jiu Jitsu training in Bentonville, Arkansas. Our mission is to help students of all ages and skill levels learn authentic BJJ in a supportive, ego-free environment.
                 </p>
                 <p>
-                  Founded by former NFL wide receiver Ricky Proehl, Proehlific Park is Greensboro&apos;s comprehensive sports training center serving athletes and families of all ages. From our state-of-the-art fitness center to our youth programs and sports leagues, we provide everything you need to achieve your goals.
+                  Led by world champion competitor Professor Italo, our academy offers comprehensive training programs including Kids BJJ, Adult BJJ (both Gi and No Gi), Women-Only BJJ classes, and Private Training. We have separate classes for beginners, ensuring everyone learns at the appropriate level.
                 </p>
                 <p>
-                  Our dedicated staff and family-oriented community create an encouraging environment where everyone can thrive. Whether you&apos;re looking for personal training, group fitness classes, youth sports, or after school care, we have programs designed for you.
+                  Our welcoming community and dedicated instructors create an encouraging atmosphere where everyone helps each other learn and grow. Whether you&apos;re looking for self-defense skills, fitness, competition training, or just want to try something new, we have a program for you.
                 </p>
                 <p className="font-semibold text-foreground text-xl pt-4">
-                  Please stop by and take a tour! We would love to meet you and together we can enjoy the P.O.W.E.R. of Play!
+                  Please stop by and take a tour! We would love to meet you and show you our facility. Try a free trial class and experience authentic Brazilian Jiu Jitsu training with world champion instructors.
                 </p>
               </div>
             </CardContent>
@@ -136,9 +133,9 @@ export function Facility() {
                         Address
                       </h4>
                       <p className="text-sm text-muted-foreground">
-                        4517 Jessup Grove Rd
+                        3600 Southwest Regional Airport Blvd
                         <br />
-                        Greensboro, NC 27410
+                        Bentonville, AR 72712
                       </p>
                     </div>
                   </div>
@@ -150,10 +147,10 @@ export function Facility() {
                     <div>
                       <h4 className="font-bold text-foreground mb-1">Phone</h4>
                       <a
-                        href="tel:3366655233"
+                        href="tel:4798002550"
                         className="text-sm text-primary hover:text-primary/80 transition-colors"
                       >
-                        (336) 665-5233
+                        (479) 800-2550
                       </a>
                     </div>
                   </div>
@@ -165,10 +162,10 @@ export function Facility() {
                     <div>
                       <h4 className="font-bold text-foreground mb-1">Email</h4>
                       <a
-                        href="mailto:info@proehlificpark.com"
+                        href="mailto:overcomebjj@gmail.com"
                         className="text-sm text-primary hover:text-primary/80 transition-colors"
                       >
-                        info@proehlificpark.com
+                        overcomebjj@gmail.com
                       </a>
                     </div>
                   </div>
@@ -180,14 +177,14 @@ export function Facility() {
               <CardContent className="p-0">
                 <div className="aspect-[16/9] w-full">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.5!2d-79.8898!3d36.0726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s4517+Jessup+Grove+Rd%2C+Greensboro%2C+NC+27410!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.5!2d-94.2526732!3d36.3367733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s3600+Southwest+Regional+Airport+Blvd%2C+Bentonville%2C+AR+72712!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Proehlific Park Location"
+                    title="Overcome Jiu Jitsu Location"
                   />
                 </div>
               </CardContent>
@@ -268,7 +265,7 @@ export function Facility() {
                         required
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="(336) 665-5233"
+                        placeholder="(479) 800-2550"
                         className="border-2 h-12"
                       />
                     </div>
@@ -298,7 +295,7 @@ export function Facility() {
 
                   <p className="text-xs text-muted-foreground text-center">
                     By submitting this form, you agree to receive SMS messages
-                    from Proehlific Park to provide the information you requested
+                    from Overcome Jiu Jitsu to provide the information you requested
                     about programs and membership. Message and data rates may
                     apply. Reply STOP to opt-out anytime.
                   </p>

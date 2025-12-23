@@ -6,13 +6,13 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-foreground mb-4 tracking-tight">Proehlific Park</h3>
+            <h3 className="text-2xl font-bold text-foreground mb-4 tracking-tight">Overcome Jiu Jitsu</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Greensboro&apos;s comprehensive sports training center for all ages. Find the P.O.W.E.R. in Play.
+              Get the best authentic Brazilian Jiu Jitsu training in Bentonville, Arkansas. World champion instructors teaching Kids BJJ, Adult BJJ, Women-Only BJJ, and Private Training.
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://www.facebook.com/ProehlificPark/"
+                href="https://www.facebook.com/overcomebjj"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -21,7 +21,7 @@ export function Footer() {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="https://www.instagram.com/proehlificpark/"
+                href="https://www.instagram.com/overcomebjj/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -30,25 +30,7 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="https://x.com/proehlificpark"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="X (Twitter)"
-              >
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a
-                href="https://www.youtube.com/user/ProehlificPOWER"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="YouTube"
-              >
-                <Youtube className="h-5 w-5" />
-              </a>
-              <a
-                href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x88531d1d1d00bd5b:0xca83a8fc16ff7ba4?source=g.page.share"
+                href="https://www.google.com/maps/place/Overcome+Brazilian+jiu-jitsu+school/@36.3367733,-94.2526732,15z/data=!4m6!3m5!1s0x87c90f9a57d24cdf:0x24cbc936baccb6a7!8m2!3d36.3367733!4d-94.2526732!16s%2Fg%2F11nmrg99k8?entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -88,42 +70,34 @@ export function Footer() {
           <div>
             <h4 className="text-lg font-bold text-foreground mb-4 tracking-tight">CONTACT INFO</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li>4517 Jessup Grove Rd</li>
-              <li>Greensboro, NC 27410</li>
+              <li>3600 Southwest Regional Airport Blvd</li>
+              <li>Bentonville, AR 72712</li>
               <li>
-                <a href="tel:3366655233" className="hover:text-primary transition-colors">
-                  (336) 665-5233
+                <a href="tel:4798002550" className="hover:text-primary transition-colors">
+                  (479) 800-2550
                 </a>
               </li>
               <li>
-                <a href="mailto:info@proehlificpark.com" className="hover:text-primary transition-colors">
-                  info@proehlificpark.com
+                <a href="mailto:overcomebjj@gmail.com" className="hover:text-primary transition-colors">
+                  overcomebjj@gmail.com
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold text-foreground mb-4 tracking-tight">HOURS</h4>
+            <h4 className="text-lg font-bold text-foreground mb-4 tracking-tight">PROGRAMS</h4>
             <ul className="space-y-2 text-muted-foreground text-sm">
-              <li className="flex justify-between">
-                <span>Mon - Fri:</span>
-                <span>5:00 AM - 9:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Saturday:</span>
-                <span>7:00 AM - 6:00 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Sunday:</span>
-                <span>12:00 PM - 6:00 PM</span>
-              </li>
+              <li>Kids BJJ</li>
+              <li>Adult BJJ</li>
+              <li>Women-Only BJJ</li>
+              <li>Private Training</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-border pt-8 text-center text-muted-foreground/80">
-          <p>&copy; {new Date().getFullYear()} Proehlific Park. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Overcome Jiu Jitsu. All rights reserved.</p>
           <p className="mt-2">
             Powered by{" "}
             <a

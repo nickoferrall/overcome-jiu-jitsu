@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "About Us - Proehlific Park Greensboro",
+  title: "About Us - Overcome Jiu Jitsu | Bentonville, Arkansas",
   description:
-    "Learn about Proehlific Park in Greensboro, NC. Founded by NFL wide receiver Ricky Proehl, our mission is to inspire through sports and fitness.",
+    "Learn about Overcome Jiu Jitsu in Bentonville, AR. World champion instructors teaching authentic Brazilian Jiu Jitsu to students of all ages and skill levels.",
   alternates: {
-    canonical: "https://proehlificpark.com/about",
+    canonical: "https://overcomejiujitsu.com/about",
   },
   openGraph: {
-    title: "About Us - Proehlific Park Greensboro",
+    title: "About Us - Overcome Jiu Jitsu | Bentonville, Arkansas",
     description:
-      "Learn about Proehlific Park in Greensboro, NC. Founded by NFL wide receiver Ricky Proehl, our mission is to inspire through sports and fitness.",
-    url: "https://proehlificpark.com/about",
-    images: ["/proehlific-facility.jpg"],
+      "Learn about Overcome Jiu Jitsu in Bentonville, AR. World champion instructors teaching authentic Brazilian Jiu Jitsu to students of all ages and skill levels.",
+    url: "https://overcomejiujitsu.com/about",
+    images: ["https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/8897/Overcome-Bjj-249850.jpg"],
   },
 };
 
